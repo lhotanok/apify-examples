@@ -1,0 +1,18 @@
+{
+    "title": "CheerioCrawler Template",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "Tripadvisor attraction listing pages.",
+            "editor": "requestListSources",
+            "prefill": [
+                {
+                    "url": "https://www.tripadvisor.com/Attractions-g274707-Activities-oa0-Prague_Bohemia.html"
+                }
+            ]
+        }
+    }
+}
